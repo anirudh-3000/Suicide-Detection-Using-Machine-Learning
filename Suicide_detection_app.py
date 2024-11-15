@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
-import numpy as np  # Ensure numpy is imported
-from sklearn.naive_bayes import GaussianNB  # Assuming GaussianNB was used
+import numpy as np  
+from sklearn.naive_bayes import GaussianNB  #GaussianNB gave highest accuracy
 
 # Load the model and vectorizer
 with open('best_model.pkl', 'rb') as model_file:
